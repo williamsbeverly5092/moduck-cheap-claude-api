@@ -12,12 +12,14 @@ Four public pages list different ordinary input and output token rates for **Cla
 
 An input token is text sent to the model; an output token is text it generates. Providers usually price the two separately. To avoid comparing a subscription, a prepaid key, and metered usage as if they were the same product, the table uses only public **ordinary input/output prices in USD per million tokens** for pages naming Claude Sonnet 5.5. It does not include cache, batch, regional settings, taxes, add-on fees, or promotional credit.
 
-| Published route | Ordinary input / 1M tokens | Ordinary output / 1M tokens | What the page actually establishes |
-| --- | ---: | ---: | --- |
-| [Anthropic](https://platform.claude.com/docs/en/about-claude/pricing) | $2.00 | $10.00 | Anthropic's published standard Sonnet 5.5 token rates. |
-| [Moduck](https://moduck.ai/models/c/anthropic/claude-sonnet-5-5) | $1.60 | $8.00 | Moduck's listed Sonnet 5.5 rates; route availability and exact catalog ID require account verification. |
-| [OmniaKey](https://omniakey.com/claude-sonnet-5-5) | $0.56 | $2.80 | OmniaKey's listed Sonnet 5.5 rates; its page says the final charge can vary. |
-| [CheapAI](https://cheapai.io/en/claude-api) | $0.30 | $1.50 | CheapAI's public Claude API catalog names Sonnet 5.5 at these rates; the specific route and final account terms still need checking. |
+| Published route | Input / 1M tokens | Output / 1M tokens |
+| --- | ---: | ---: |
+| [Anthropic](https://platform.claude.com/docs/en/about-claude/pricing) | $2.00 | $10.00 |
+| [Moduck](https://moduck.ai/models/c/anthropic/claude-sonnet-5-5) | $1.60 | $8.00 |
+| [OmniaKey](https://omniakey.com/claude-sonnet-5-5) | $0.56 | $2.80 |
+| [CheapAI](https://cheapai.io/en/claude-api) | $0.30 | $1.50 |
+
+Anthropic publishes these as its standard Sonnet 5.5 token rates. Moduck lists the displayed rates, but route availability and exact catalog ID need account verification. OmniaKey says the final charge can vary. CheapAI's public Claude API catalog names Sonnet 5.5 at the displayed rates; its specific route and final account terms still need checking.
 
 On these published ordinary token numbers, CheapAI has the lowest listed ordinary input and output token rates in this four-page sample. That is a narrow finding about the displayed rate cards. It is not proof of a lower final invoice or a recommendation to move production traffic there. The pages have different levels of detail about route identity, caching, access, and billing conditions. Even where the model name matches, the configuration may not.
 
